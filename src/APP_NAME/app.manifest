@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "APP_NAME",
+    "id": {
+      "group": null,
+      "name": "APP_NAME",
+      "version": "1.0.3"
+    },
+    "author": [
+      {
+        "name": "ZachTheSplunker",
+        "email": null,
+        "company": null
+      }
+    ],
+    "releaseDate": null,
+    "description": "description",
+    "classification": {
+      "intendedAudience": "Security",
+      "categories": [
+        "Endpoint",
+        "Security, Fraud, & Compliance",
+        "Information"
+      ],
+      "developmentStatus": "Production/Stable"
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": "README",
+      "uri": "docs_url"
+    }
+  },
+  "dependencies": null,
+  "tasks": null,
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "*"
+  ],
+  "targetWorkloads": [
+    "*"
+  ]
+}
