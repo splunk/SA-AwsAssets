@@ -1,7 +1,7 @@
-site_name: APP_NAME
+site_name: SA-AwsAssets
 edit_uri: ""
-repo_url: https://github.com/ZachChristensen28/APP_NAME
-repo_name: ZachChristensen28/APP_NAME
+repo_url: https://github.com/ZachChristensen28/SA-AwsAssets
+repo_name: ZachChristensen28/SA-AwsAssets
 
 plugins:
   - git-revision-date-localized:
@@ -23,15 +23,16 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
   name: material
-  #   logo:
-  #   favicon:
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo
-  favicon: assets/logo
+  logo: assets/sa-aws-logo.svg
+  favicon: assets/sa-aws-logo.svg
   features:
     # - header.autohide
     - navigation.indexes
@@ -52,8 +53,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
-      accent: red
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -66,6 +67,11 @@ extra:
       link: https://github.com/ZachChristensen28
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ZachTheSplunker
+    - icon: simple/ghost
+      link: https://zachthesplunker.com
+
+# extra_css:
+#   - stylesheets/extra.css
 
 nav:
   - Home: index.md
@@ -77,7 +83,6 @@ nav:
       - configure/index.md
       - Update Priority: configure/priority.md
       - Update Category: configure/category.md
-      - Update Business Unit: configure/bunit.md
       - Update Schedule: configure/schedule.md
       - Update Cleanup: configure/cleanup.md
       - Best Practice:
@@ -94,4 +99,4 @@ nav:
           - Asset Merge: troubleshooting/solution-guides/asset-merge.md
   - Release Notes:
       - Release Notes: releases/index.md
-      - Release History: releases/release-history.md
+  #     - Release History: releases/release-history.md

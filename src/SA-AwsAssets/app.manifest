@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0.0",
   "info": {
-    "title": "APP_NAME",
+    "title": "SA-AwsAssets",
     "id": {
       "group": null,
-      "name": "APP_NAME",
-      "version": "1.0.3"
+      "name": "SA-AwsAssets",
+      "version": "1.0.0.beta1"
     },
     "author": [
       {
@@ -38,11 +38,22 @@
     },
     "releaseNotes": {
       "name": "README",
-      "uri": "docs_url"
+      "uri": "https://splunk-sa-aws.ztsplunker.com"
     }
   },
-  "dependencies": null,
-  "tasks": null,
+  "dependencies": {
+    "Splunk_TA_aws": {
+      "version": ">=6.0.0",
+      "optional": true
+    },
+    "SplunkEnterpriseSecuritySuite": {
+      "version": ">=6.0.0",
+      "optional": false
+    }
+  },
+  "tasks": [
+    "identity_manager://sa_aws_assets"
+  ],
   "inputGroups": null,
   "incompatibleApps": null,
   "platformRequirements": null,
@@ -50,6 +61,6 @@
     "*"
   ],
   "targetWorkloads": [
-    "*"
+    "_search_heads"
   ]
 }
