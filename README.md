@@ -34,6 +34,7 @@ Splunk Add-on for AWS (Required) | [6.x](https://splunkbase.splunk.com/app/1876)
 ```text
 Version 1.0.0
 
+- Initial Release
 ```
 
 ## Issues or Feature Requests
