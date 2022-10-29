@@ -6,7 +6,7 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-AwsAssets)
 [![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--AwsAssets-blue)](https://splunkbase.splunk.com/app/6660)
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
-[![AWS Add-on Compatibility](https://img.shields.io/badge/AWS%20Addon%20Compatibility-6.x-yellow)](https://splunkbase.splunk.com/app/1876)
+[![AWS Add-on Compatibility](https://img.shields.io/badge/AWS%20Addon%20Compatibility-6.x-success)](https://splunkbase.splunk.com/app/1876)
 ![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
 
 This supporting add-on comes with prebuilt content for AWS asset data to be easily used with Splunk Enterprise Security's asset database.
