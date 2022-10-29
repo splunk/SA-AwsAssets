@@ -1,6 +1,6 @@
 # Release notes
 
-## [v1.0.0.beta1 <small>October 28, 2022</small>](https://github.com/ZachChristensen28/SA-AwsAssets/releases/tag/v1.0.0.beta1)
+## [v1.0.0 <small>October 28, 2022</small>](https://github.com/ZachChristensen28/SA-AwsAssets/releases/tag/v1.0.0)
 
 ### Compatibility
 
@@ -12,7 +12,7 @@ Splunk Add-on for AWS | [6.x](https://splunkbase.splunk.com/app/1876)
 
 ### New
 
-- Pre-release for beta testing.
+- Initial release
 
 ## Known issues
 
