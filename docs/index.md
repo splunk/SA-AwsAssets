@@ -14,6 +14,8 @@ __Example Output__
 ![SA-AwsAssets Example](/assets/sa-aws-example-dark.png#only-dark)
 ![SA-AwsAssets Example](/assets/sa-aws-example-light.png#only-light)
 
+!!! important "This Supporting add-on is only intended to work with [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263) deployments."
+
 !!! quote ""
     __*Disclaimer*__
 
