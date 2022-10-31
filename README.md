@@ -27,15 +27,9 @@ Full documentation can be found at [https://splunk-sa-aws.ztsplunker.com](https:
 
 Info | Description
 ------|----------
-SA-AwsAssets | 1.0.0 - [Splunkbase](SPLUNKBASE_URL) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
+SA-AwsAssets | 1.0.1 - [Splunkbase](SPLUNKBASE_URL) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](SPLUNKBASE_URL)
 Splunk Add-on for AWS (Required) | [6.x](https://splunkbase.splunk.com/app/1876)
-
-```text
-Version 1.0.0
-
-- Initial Release
-```
 
 ## Issues or Feature Requests
 
