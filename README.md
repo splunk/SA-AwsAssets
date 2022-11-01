@@ -4,7 +4,7 @@
 [![Docs](https://github.com/ZachChristensen28/SA-AwsAssets/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-aws.ztsplunker.com)
 ![Appinspect](https://github.com/ZachChristensen28/SA-AwsAssets/actions/workflows/appinspect.yml/badge.svg)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-AwsAssets)
-[![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--AwsAssets-blue)](https://splunkbase.splunk.com/app/#placeholder)
+[![Splunkbase App](https://img.shields.io/badge/Splunkbase-SA--AwsAssets-blue)](https://splunkbase.splunk.com/app/6660/)
 [![Splunk ES Compatibility](https://img.shields.io/badge/Splunk%20ES%20Compatibility-7.x%20|%206.x-success)](https://splunkbase.splunk.com/app/263)
 [![AWS Add-on Compatibility](https://img.shields.io/badge/AWS%20Addon%20Compatibility-6.x-yellow)](https://splunkbase.splunk.com/app/1876)
 ![Splunk Cloud Compatibility](https://img.shields.io/badge/Splunk%20Cloud%20Ready-Victoria%20|%20Classic-informational?logo=splunk)
@@ -27,8 +27,8 @@ Full documentation can be found at [https://splunk-sa-aws.ztsplunker.com](https:
 
 Info | Description
 ------|----------
-SA-AwsAssets | 1.0.1 - [Splunkbase](SPLUNKBASE_URL) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
-Splunk Enterprise Security Version (Required) | [7.x \| 6.x](SPLUNKBASE_URL)
+SA-AwsAssets | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6660/) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
+Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Splunk Add-on for AWS (Required) | [6.x](https://splunkbase.splunk.com/app/1876)
 
 ## Issues or Feature Requests
