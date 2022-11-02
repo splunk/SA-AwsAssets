@@ -33,7 +33,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-AwsAssets | 1.0.0 - [Splunkbase](https://splunkbase.splunk.com/app/6660) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
+SA-AwsAssets | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6660/) \| [GitHub](https://github.com/ZachChristensen28/SA-AwsAssets)
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 Splunk Add-on for AWS <small>(Required)</small> | [6.x](https://splunkbase.splunk.com/app/1876)
 
