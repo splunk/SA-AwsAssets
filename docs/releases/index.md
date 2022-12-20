@@ -1,6 +1,6 @@
 # Release notes
 
-## [v1.0.1 <small>November 2, 2022</small>](https://github.com/ZachChristensen28/SA-AwsAssets/releases/tag/v1.0.1)
+## [v1.0.2 <small>December 20, 2022</small>](https://github.com/ZachChristensen28/SA-AwsAssets/releases/tag/v1.0.2)
 
 ### Compatibility
 
@@ -12,7 +12,9 @@ Splunk Add-on for AWS | [6.x](https://splunkbase.splunk.com/app/1876)
 
 ### What's Changed
 
-- Fixed duplicate `nt_host` field - [#5](https://github.com/ZachChristensen28/SA-AwsAssets/issues/5)
+- Added macro and retention definition to ES General Settings in [#10](https://github.com/ZachChristensen28/SA-AwsAssets/commit/26505484080f244afe6c52b7f59bf8963fc5a607)
+
+**Full Changelog**: [v1.0.1...v1.0.2](https://github.com/ZachChristensen28/SA-AwsAssets/compare/v1.0.1...v1.0.2)
 
 ## Known issues
 
