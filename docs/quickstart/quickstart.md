@@ -26,6 +26,25 @@ Macro | Default | Description
 
 !!! note "Update the index definition to the correct index that contains the `aws:metadata` sourcetype."
 
+Perform **_one_** of the following:
+
+1. <small>(recommended)</small> Update via Splunk ES [General Settings](#es-general-settings).
+1. Update via [Macro Definition](#macro-definition).
+
+#### ES General Settings
+
+<small>option 1 (recommended option)</small>
+
+1. <small>(In Splunk Enterprise Security)</small> Navigate to Configure > General > General Settings.
+1. From the "App" dropdown select `SA-AwsAssets`.
+1. Update the SA-AwsAssets Index definition and click "Save."
+
+---
+
+#### Macro Definition
+
+<small>option 2</small>
+
 1. Navigate to Settings > Advanced Search > Search Macros.
 1. From the "App" dropdown choose `SA-AwsAssets`.
 1. Set the "Owner" dropdown to `any`.
