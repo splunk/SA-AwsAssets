@@ -1,15 +1,25 @@
 # Priority Field
 
-!!! info "To update the `priority` field modify the `SA-AwsAssets - Lookup Gen` saved search. It is recommended to clone the default search before making changes (see [Clone Saved Search](../best-practice/clone-search))."
+!!!primary To update the `priority` field modify the `SA-AwsAssets - Lookup Gen` saved search. It is recommended to clone the default search before making changes (see [Clone Saved Search](clone-search.md)).
+!!!
 
-All assets are set to "medium" by default and should be updated to suite your environment.
+The priority field is very generic by default and should be updated to suite your environment. The following table describes how this field is set.
 
-The following is an example of how this may be set up.
+Type | Condition | Severity | Description
+---- | --------- | -------- | -----------
+RegEx\* | domain_controller | `critical` | All domain controllers
+RegEx\* | server\|ubuntu\|rhel\|linux | `high` | Servers
+boolean | true() | `medium` | catch-all. Remaining devices receive medium severity.
+
+
+> \*Regex Match is performed on the category field.
+
+Default priority field definition
 
 ```python
 priority=case(
-    match(category, "domain_controller"), "critical",
-    match(category, "server|ubuntu|rhel|linux"), "high",
+    match(category, "(?i)domain_controller"), "critical",
+    match(category, "(?i)server|ubuntu|rhel|linux"), "high",
     true(), "medium"
     )
 ```

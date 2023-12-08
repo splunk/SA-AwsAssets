@@ -1,0 +1,33 @@
+input: .
+output: .retype
+url: splunk.github.io/SA-AwsAssets/
+
+branding:
+  title: SA-AwsAssets
+  label: v1.0.3
+
+links:
+- text: Splunkbase
+  link: https://splunkbase.splunk.com/app/6660
+  target: blank
+  icon: apps
+
+- text: GitHub
+  link: https://github.com/splunk/SA-AwsAssets/releases
+  target: blank
+  icon: mark-github
+
+- text: Issues
+  link: https://github.com/splunk/SA-AwsAssets/issues
+  icon: comment-discussion
+  target: blank
+
+footer:
+  links:
+    - text: License - SPLUNK GENERAL TERMS
+      link: https://www.splunk.com/en_us/legal/splunk-general-terms.html
+      target: blank
+      icon: shield-check
+
+markdown:
+  lineBreaks: hard

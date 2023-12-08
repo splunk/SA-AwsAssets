@@ -7,3 +7,5 @@ venv
 .idea
 Pipfile**
 **/data
+.retype/**
+retype.manifest

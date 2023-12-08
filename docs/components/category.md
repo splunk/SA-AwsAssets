@@ -1,8 +1,4 @@
----
-hide:
-    - toc
----
-# Category
+# Category Field
 
 ## Default category field mapping
 
@@ -27,7 +23,7 @@ splunk_last_updated | `now()` | 09/29/22 18:55:51 mdt
 
 ### Full example of category value
 
-```text
+```yaml
 availability_zone: us-east-1d
 enabled: true
 gen: sa-aws-assets

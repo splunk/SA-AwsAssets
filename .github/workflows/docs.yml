@@ -1,15 +1,21 @@
 name: docs
 on:
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - "docs/**"
-      - "mkdocs.yml"
-
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+  #   paths:
+  #     - "docs/**"
 jobs:
-  call-docs-workflow:
-    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/docs.yml@main
-    with:
-      config-path: docs/requirements.txt
+  publish:
+    name: Publish to retype branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: retypeapp/action-build@latest
+      - uses: retypeapp/action-github-pages@latest
+        with:
+          update-branch: true
