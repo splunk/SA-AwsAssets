@@ -15,6 +15,7 @@
   <a href="https://splunkbase.splunk.com/app/6660/">Splunkbase</a>
   .
   <a href="https://github.com/splunk/SA-AwsAssets/issues/">Report a Bug</a>
+  
   <br>
 
   [![License](https://img.shields.io/badge/License-Splunk%20General%20Terms-ce0070)](https://www.splunk.com/en_us/legal/splunk-general-terms.html)
