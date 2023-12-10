@@ -5,17 +5,17 @@
     "id": {
       "group": null,
       "name": "SA-AwsAssets",
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
     "author": [
       {
         "name": "ZachTheSplunker",
-        "email": null,
-        "company": null
+        "email": "zchristensen@splunk.com",
+        "company": "Splunk"
       }
     ],
     "releaseDate": null,
-    "description": "description",
+    "description": "This supporting add-on comes with prebuilt content for AWS asset data to be easily used with Splunk Enterprise Security's asset database.",
     "classification": {
       "intendedAudience": "Security",
       "categories": [
@@ -27,9 +27,9 @@
     },
     "commonInformationModels": null,
     "license": {
-      "name": "MIT License",
+      "name": "SPLUNK GENERAL TERMS",
       "text": null,
-      "uri": "https://opensource.org/licenses/MIT"
+      "uri": "https://www.splunk.com/en_us/legal/splunk-general-terms.html"
     },
     "privacyPolicy": {
       "name": "Splunk Privacy Policy",
@@ -38,7 +38,7 @@
     },
     "releaseNotes": {
       "name": "README",
-      "uri": "https://splunk-sa-aws.ztsplunker.com"
+      "uri": "https://splunk.github.io/SA-AwsAssets/reference/releases/"
     }
   },
   "dependencies": {
