@@ -9,13 +9,14 @@
 [![Splunk Community](https://img.shields.io/badge/Splunk%20Community-white?style=gray&logo=splunk&logoColor=whitte&labelColor=gray)](https://community.splunk.com/)
 
 <div align="center">
+  
   <h1>AWS Assets for Splunk Enterprise Security</h1>
+  
   <a href="https://splunk.github.io/SA-AwsAssets/">Documentation</a>
   ·
   <a href="https://splunkbase.splunk.com/app/6660/">Splunkbase</a>
   .
   <a href="https://github.com/splunk/SA-AwsAssets/issues/">Report a Bug</a>
-  
   <br>
 
   [![License](https://img.shields.io/badge/License-Splunk%20General%20Terms-ce0070)](https://www.splunk.com/en_us/legal/splunk-general-terms.html)
