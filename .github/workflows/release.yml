@@ -8,6 +8,9 @@ on:
     paths:
       - "SA-AwsAssets/**"
 
+permissions:
+  contents: write
+
 jobs:
   package:
     runs-on: ubuntu-latest
