@@ -8,9 +8,23 @@ label: Releases
 
 Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6660/){ target="blank" }.
 
-## v1.0.3 [!badge text="LATEST" variant="info"]
+## v1.0.4 [!badge text="LATEST" variant="info" icon="package"]
 
-Released: [December 13, 2023 <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6660/){ target="blank" }
+Released: [December 11, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-AwsAssets/releases/tag/v1.0.4){ target="blank" }
+
++++ Improved :icon-thumbsup:
+- [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> [Schedule Search](/start/scheduled-search.md){ target="blank" }
++++ Deprecated :icon-diff-removed:
+- [x] Deprecating use of the search macro "sa_aws_assets_retention" and the corresponding saved search.
++++
+
+**Full Changelog**: [v1.0.3...v1.0.4 <small>:icon-link-external:</small>](https://github.com/splunk/SA-AwsAssets/compare/v1.0.3...v1.0.4){ target=blank }
+
+---
+
+## v1.0.3
+
+Released: [December 13, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-AwsAssets/releases/tag/v1.0.3){ target="blank" }
 
 +++ Fixed :icon-bug:
 - [x] Fixed empty IP/MAC address for instances with multiple interfaces - [#20 <small>:icon-link-external:</small>](https://github.com/splunk/SA-AwsAssets/issues/20){ target=blank } Thanks [@barrettnet <small>:icon-link-external:</small>](https://github.com/barrettnet){ target=blank }

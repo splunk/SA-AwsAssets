@@ -1,12 +1,12 @@
 name: docs
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
-  #     - master
-  #   paths:
-  #     - "docs/**"
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - "docs/**"
 jobs:
   publish:
     name: Publish to retype branch
