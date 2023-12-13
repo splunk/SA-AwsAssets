@@ -1,4 +1,5 @@
 name: docs
+
 on:
   workflow_dispatch:
   push:
@@ -7,15 +8,7 @@ on:
       - master
     paths:
       - "docs/**"
+
 jobs:
-  publish:
-    name: Publish to retype branch
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v3
-      - uses: retypeapp/action-build@latest
-      - uses: retypeapp/action-github-pages@latest
-        with:
-          update-branch: true
+  call-packaging-workflow:
+    uses: ZachTheSplunker/app-wfa/.github/workflows/docs.yml@main
