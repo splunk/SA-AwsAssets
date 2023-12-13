@@ -12,7 +12,8 @@ on:
 jobs:
   call-packaging-workflow:
     uses: ZachTheSplunker/app-wfa/.github/workflows/appinspect.yml@main
-    secrets: inherit
     with:
       package-name: SA-AwsAssets
-          
+    secrets:
+      API_USER: ${{ secrets.API_USER }}
+      API_PASS: ${{ secrets.API_PASS }}
