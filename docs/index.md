@@ -3,6 +3,8 @@ icon: home
 label: Home
 ---
 
+![](/static/hero.webp)
+
 # Welcome to the Docs!
 
 The SA-AwsAssets Add-on allows Splunk Enterprise Security admins to use [AWS <small>:icon-link-external:</small>][aws]{ target="blank" } asset data with the Asset Database. This documentation will cover the components used in the add-on and advanced configurations. 
