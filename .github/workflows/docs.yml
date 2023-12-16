@@ -9,6 +9,9 @@ on:
     paths:
       - "docs/**"
 
+permissions:
+  contents: write
+
 jobs:
   call-packaging-workflow:
     uses: ZachTheSplunker/app-wfa/.github/workflows/docs.yml@main
